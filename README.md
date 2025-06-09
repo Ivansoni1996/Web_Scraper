@@ -8,7 +8,7 @@
  How Websites Work: When you type a URL into your browser, your browser sends an HTTP (Hypertext Transfer Protocol) request to the website's server. The server then responds with HTML, CSS, JavaScript, images, etc., which your browser renders as a webpage.
 
 # Scraper's Role
- A web scraper mimics this process. It sends HTTP GET requests to  websites to retrieve the HTML content of a specific   page. Libraries like **requests** in Python handle this.
+ A web scraper mimics this process. It sends HTTP GET requests to  websites to retrieve the HTML content of a specific   page. Libraries like requests in Python handle this.
 
 
 
