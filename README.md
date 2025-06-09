@@ -1,19 +1,17 @@
 # Web_Scraper
-**Theory**
- At its core, web scraping is the automated extraction of data from websites. For news articles, this means programmatically accessing a news website, identifying the relevant parts of an article (headline, author, date, body text, images, etc.), and then saving that information in a structured format.
+At its core, web scraping is the automated extraction of data from websites. For news articles, this means programmatically accessing a news website, identifying the relevant parts of an article (headline, author, date, body text, images, etc.), and then saving that information in a structured format.
 
 
-# Key Concepts
-**HTTP Requests**
- How Websites Work: When you type a URL into your browser, your browser sends an HTTP (Hypertext Transfer Protocol) request to the website's server. The server then responds with HTML, CSS, JavaScript, images, etc., which your browser renders as a webpage.
+# HTTP Requests
+How Websites Work: When you type a URL into your browser, your browser sends an HTTP (Hypertext Transfer Protocol) request to the website's server. The server then responds with HTML, CSS, JavaScript, images, etc., which your browser renders as a webpage.
 
 # Scraper's Role
- A web scraper mimics this process. It sends HTTP GET requests to  websites to retrieve the HTML content of a specific   page. Libraries like requests in Python handle this.
+A web scraper mimics this process. It sends HTTP GET requests to  websites to retrieve the HTML content of a specific   page. Libraries like requests in Python handle this.
 
 
 
 # The Foundation
-   Web pages are primarily built using HTML . HTML uses tags (e.g., <p>, <h1>, <a>, <div>) to define the structure and content of a page.
+Web pages are primarily built using HTML . HTML uses tags (e.g., <p>, <h1>, <a>, <div>) to define the structure and content of a page.
 
 # Navigating the Tree
   When the browser receives HTML, it builds a tree-like representation called the DOM. Each HTML element is a node in this tree. Web scrapers parse this HTML to navigate the DOM and locate the specific data they need.
