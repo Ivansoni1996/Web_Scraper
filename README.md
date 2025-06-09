@@ -77,4 +77,4 @@ The following python libraries are important for this project
 **BeautifulSoup4 (bs4):** For parsing HTML  documents.
 
 ```bash 
-pip install requests beautifulsoup4```
+pip install requests beautifulsoup4
