@@ -11,7 +11,7 @@ A web scraper mimics this process. It sends HTTP GET requests to  websites to re
 
 
 # The Foundation
-Web pages are primarily built using HTML . HTML uses tags (e.g., <p>, <h1>, <a>, <div>) to define the structure and content of a page.
+Web pages are primarily built using HTML . HTML uses tags div,p,etc to define the structure and content of a page.
 
 # Navigating the Tree
 When the browser receives HTML, it builds a tree-like representation called the DOM. Each HTML element is a node in this tree. Web scrapers parse this HTML to navigate the DOM and locate the specific data they need.
