@@ -69,3 +69,11 @@ To extract content, you need to understand how a website structures . This invol
 # Identify APIs
   Sometimes the data is loaded from a public API that you can directly access.
   Headless Browsers: Tools like Selenium or Playwright can control a real browser (without a visible GUI) to execute JavaScript and render the page before scraping. This is more resource-intensive but necessary for dynamic content.
+# steps
+I will use Python for my webscraper, as it's the most popular language for web scraping due to its excellent libraries.
+# Installations
+The following python libraries are important for this project
+**requests:** For making HTTP requests to download webpage content.
+**BeautifulSoup4 (bs4):** For parsing HTML  documents.
+
+pip install requests beautifulsoup4
