@@ -76,4 +76,4 @@ The following python libraries are important for this project
 **requests:** For making HTTP requests to download webpage content.
 **BeautifulSoup4 (bs4):** For parsing HTML  documents.
 
-'''pip install requests beautifulsoup4'''
+````bash `pip install requests beautifulsoup4````
