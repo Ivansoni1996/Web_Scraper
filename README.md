@@ -14,10 +14,10 @@ A web scraper mimics this process. It sends HTTP GET requests to  websites to re
 Web pages are primarily built using HTML . HTML uses tags (e.g., <p>, <h1>, <a>, <div>) to define the structure and content of a page.
 
 # Navigating the Tree
-  When the browser receives HTML, it builds a tree-like representation called the DOM. Each HTML element is a node in this tree. Web scrapers parse this HTML to navigate the DOM and locate the specific data they need.
+When the browser receives HTML, it builds a tree-like representation called the DOM. Each HTML element is a node in this tree. Web scrapers parse this HTML to navigate the DOM and locate the specific data they need.
 
 # Identifying Elements
-  To extract content, you need to understand how a website structures . This involves inspecting the HTML to find unique identifiers like id attributes, class attributes, or specific tag hierarchies that consistently contain the desired information.
+To extract content, you need to understand how a website structures . This involves inspecting the HTML to find unique identifiers like id attributes, class attributes, or specific tag hierarchies that consistently contain the desired information.
 
 # Parsing HTML
   **Making Sense of Markup** 
