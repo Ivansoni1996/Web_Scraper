@@ -78,3 +78,14 @@ The following python libraries are important for this project
 
 ```bash 
 pip install requests beautifulsoup4
+```
+# choosing my Target website
+for my project i decided to choose 
+https://www.france24.com/en/  france 24 
+
+specificaly i want to scrap 
+https://www.france24.com/en/middle-east/20250608-israel-orders-military-block-aid-flotilla-carrying-greta-thunberg-gaza-freedom-flotilla-coalition-madleen 
+
+# Walk through
+make an http Request to get page content
+

@@ -1,0 +1,2 @@
+what is ment by this " response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)"
+"requests.exceptions.RequestException as e"
